@@ -4,7 +4,13 @@
 @import url(middle/header.css);
 @import url(middle/box.css);
 @import url(var.css);
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Open+Sans:wght@400;600&family=Oswald:wght@600;700&display=swap');
+
+@import url(top/top_header_animation.css);
+@import url(middle/anchor_animation.css);
 
 body {
-    background-color: #2290ff5a;
+    background-color: #2290ff24;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
 };

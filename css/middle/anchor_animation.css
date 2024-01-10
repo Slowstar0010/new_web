@@ -1,0 +1,22 @@
+@keyframes fold {
+    0% {
+        transform: scaleY(0) translateY(-8rem);
+    }
+    100% {
+        transform: scaleY(1) translateY(0);
+
+    }
+}
+
+.middle_section {
+    animation-name: fold;
+    animation-duration: 1s;
+}
+
+.midddle_anchor_img {
+    transition: all 0.2s ease-in;
+}
+
+.midddle_anchor_img:hover {
+    transform: scale(1.2);
+}

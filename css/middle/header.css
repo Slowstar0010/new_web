@@ -1,14 +1,18 @@
 .middle_header {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 3rem;
     padding-left: 2rem;
     padding-right: 0.8rem;
-    padding-top: 0.2rem;
+    padding-top: 0.4rem;
     background-color: var(--anchor_back_color);
     width: 5rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.middle_red_header {
+    background-color: var(--anchor_red_back_color);
 }
 
 .middle_header_text {

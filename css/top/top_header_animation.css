@@ -1,0 +1,13 @@
+@keyframes slide {
+    0%{
+        transform: translateY(-3rem);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.top_header {
+    animation-name: slide;
+    animation-duration: 1s;
+}
