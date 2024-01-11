@@ -10,7 +10,7 @@
 @import url(middle/anchor_animation.css);
 
 body {
-    background-color: #2290ff24;
+    background-color: var(--basic_back_color);
     width: 100%;
     font-family: 'Oswald', sans-serif;
 };
