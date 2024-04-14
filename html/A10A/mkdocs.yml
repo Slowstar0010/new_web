@@ -1,6 +1,7 @@
 site_name: 비붕e북
 theme:
   name: material
+  logo: assets/logo.png
   palette:
     primary: blue
   palette: 
